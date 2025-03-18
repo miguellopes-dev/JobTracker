@@ -8,7 +8,6 @@ cursor = conn.cursor()
 conn.commit()
 
 # Add jobs
-
 def add_job():
     ID = input("Enter the JOB ID: ")
     company = input("Enter Company Name: ")
